@@ -1,16 +1,18 @@
 # Jeffrey Carmichael Portfolio Website
 
-A static, single-page portfolio website built with plain HTML, CSS, and JavaScript. No frameworks, build tools, package managers, or backend services are required.
+A static, single-page portfolio site built with plain HTML, CSS, and JavaScript. No frameworks, build tools, package managers, or deployment scripts are required.
 
 ## Files
 
-- `index.html` — site structure and placeholder content
-- `style.css` — responsive layout, typography, light/dark theme styling
-- `script.js` — mobile nav, active section highlighting, dark-mode toggle, image fallback handling
+- `index.html` — page structure and placeholder content
+- `style.css` — site-wide styling and responsive layout
+- `script.js` — mobile nav toggle, active nav highlighting, and footer year
 
-## Local preview
+## Preview locally
 
-Open `index.html` directly in a browser, or run a simple local server from the project folder:
+Open `index.html` directly in your browser.
+
+For a slightly more realistic local preview, run a tiny local server from this folder:
 
 ```bash
 python -m http.server 8000
@@ -24,27 +26,23 @@ http://localhost:8000
 
 ## GitHub Pages deployment
 
-1. Create a GitHub repository named `jcarmichael.github.io`, or use your existing Pages repository.
-2. Put `index.html`, `style.css`, and `script.js` in the repository root.
-3. Add your final assets later using this structure:
+1. Place `index.html`, `style.css`, `script.js`, and this `README.md` in the root of your GitHub repository.
+2. Commit and push the files to GitHub.
+3. In the repository, go to **Settings → Pages**.
+4. Under **Build and deployment**, choose **Deploy from a branch**.
+5. Select the branch you want to publish from, usually `main`, and choose the root folder.
+6. Save the setting and wait for GitHub Pages to publish the site.
+
+## Replacing placeholders
+
+Search for `PLACEHOLDER` inside `index.html`. The placeholder bullet bars intentionally use visual lines instead of visible text, but each has a nearby HTML comment showing where to add the real bullet copy.
+
+The current dummy asset paths are:
 
 ```text
-assets/
-  images/
-    headshot.jpg
-    contact-headshot.jpg
-    rit-logo.png
-  resume/
-    Jeffrey-Carmichael-Resume.pdf
+https://jcarmichael.github.io/assets/images/headshot.jpg
+https://jcarmichael.github.io/assets/images/logo.png
+https://jcarmichael.github.io/assets/resume/Jeffrey-Carmichael-Resume.pdf
 ```
 
-4. Commit and push the files to the main branch.
-5. In GitHub, go to **Settings → Pages** and confirm the source is set to deploy from the branch root.
-
-## Placeholder content
-
-Search the code for `PLACEHOLDER` to find bullets and bio text that should be replaced later. The project titled `xxx` is intentionally preserved for future updates.
-
-## Notes
-
-The image and resume links currently point to `https://jcarmichael.github.io/assets/...`. If you host this repository under a different GitHub Pages domain or project path, update those URLs accordingly.
+Update those paths once the final assets are added.

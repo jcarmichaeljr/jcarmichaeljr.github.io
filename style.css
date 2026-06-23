@@ -181,9 +181,9 @@ main {
 }
 
 .hero-section {
-  min-height: calc(100vh - var(--nav-height));
-  display: grid;
-  align-items: center;
+  min-height: auto;
+  display: block;
+  padding-top: 32px;
 }
 
 .section-label {

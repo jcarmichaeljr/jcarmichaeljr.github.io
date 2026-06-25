@@ -284,6 +284,17 @@ h5 {
   min-width: 0;
 }
 
+.credential-school {
+  margin-bottom: 2px;
+  color: #f76902;
+  font-family: "Neue Haas Grotesk Text", "Neue Haas Grotesk", "Helvetica Neue", Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
 .credential-primary,
 .credential-secondary {
   margin-bottom: 0;

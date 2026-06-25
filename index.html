@@ -1,410 +1,550 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio website for Jeffrey Carmichael, M.S. Mechanical Engineering." />
-  <title>Jeffrey Carmichael | Portfolio</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <a class="skip-link" href="#main-content">skip to content</a>
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <meta content="Portfolio website for Jeffrey Carmichael, M.S. Mechanical Engineering." name="description"/>
+  <title>
+   Jeffrey Carmichael | Portfolio
+  </title>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main-content">
+   skip to content
+  </a>
   <header class="site-header" id="top">
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a class="brand" href="#about" aria-label="Jeffrey Carmichael home">
-        <span class="brand-mark" aria-hidden="true">JC</span>
-        <span class="brand-text">Jeffrey Carmichael</span>
+   <nav aria-label="Primary navigation" class="site-nav">
+    <a aria-label="Jeffrey Carmichael home" class="brand" href="#about">
+     <span aria-hidden="true" class="brand-mark">
+      JC
+     </span>
+     <span class="brand-text">
+      Jeffrey Carmichael
+     </span>
+    </a>
+    <button aria-controls="nav-menu" aria-expanded="false" aria-label="Open navigation menu" class="nav-toggle" type="button">
+     <span aria-hidden="true">
+     </span>
+     <span aria-hidden="true">
+     </span>
+     <span aria-hidden="true">
+     </span>
+    </button>
+    <ul class="nav-menu" id="nav-menu">
+     <li>
+      <a class="nav-link" href="#about">
+       About
       </a>
-
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Open navigation menu">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </button>
-
-      <ul class="nav-menu" id="nav-menu">
-        <li><a class="nav-link" href="#about">About</a></li>
-        <li><a class="nav-link" href="#resume">Resume</a></li>
-        <li><a class="nav-link" href="#projects">Projects</a></li>
-        <li><a class="nav-link" href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+     </li>
+     <li>
+      <a class="nav-link" href="#resume">
+       Resume
+      </a>
+     </li>
+     <li>
+      <a class="nav-link" href="#projects">
+       Projects
+      </a>
+     </li>
+     <li>
+      <a class="nav-link" href="#contact">
+       Contact
+      </a>
+     </li>
+    </ul>
+   </nav>
   </header>
-
   <main id="main-content">
-    <section class="section hero-section" id="about" aria-labelledby="about-title">
-
-      <div class="hero-grid">
-        <div class="headshot-placeholder" role="img" aria-label="Circular placeholder for Jeffrey Carmichael headshot">
-          <!-- PLACEHOLDER IMAGE PATH: https://jcarmichael.github.io/assets/images/headshot.jpg -->
-          <span>headshot</span>
-        </div>
-
-        <div class="hero-copy">
-          <h1 id="about-title">Jeffrey Carmichael</h1>
-
-          <div class="credential-block" aria-label="Education summary">
-            <div class="credential-logo" aria-hidden="true">
-              <span>RIT</span>
-              <!-- Replace the initials with <img src="https://jcarmichael.github.io/assets/images/logos/rit.png" alt="" /> when ready. -->
-            </div>
-
-            <div class="credential-text">
-              <p class="credential-primary">B.S./M.S. Candidate · Mechanical Engineering</p>
-              <p class="credential-secondary">Minor · Electrical Engineering</p>
-            </div>
+   <section aria-labelledby="about-title" class="section hero-section" id="about">
+    <div class="hero-grid">
+     <div aria-label="Circular placeholder for Jeffrey Carmichael headshot" class="headshot-placeholder" role="img">
+      <!-- PLACEHOLDER IMAGE PATH: https://jcarmichael.github.io/assets/images/headshot.jpg -->
+      <span>
+       headshot
+      </span>
+     </div>
+     <div class="hero-copy">
+      <h1 id="about-title">
+       Jeffrey Carmichael
+      </h1>
+      <div aria-label="Education summary" class="credential-block">
+       <div class="credential-text">
+        <p class="credential-primary">
+         B.S./M.S. Candidate · Mechanical Engineering
+        </p>
+        <p class="credential-secondary">
+         Minor · Electrical Engineering
+        </p>
+       </div>
+      </div>
+      <!-- PLACEHOLDER: replace this draft bio with final about copy -->
+      <p>
+       Jeffrey Carmichael, M.S. is a NY-based Mechanical Engineer with experiences in traditional and additive manufacturing and semiconductor research.
+      </p>
+      <p>
+       Jeffrey focuses on designs that aim to satisfy the customer to meet their needs at a high quality and delivered with efficiency.
+      </p>
+      <p>
+       In his free time, Jeffrey enjoys photography, exploring the outdoors, eating good food, and spending time with friends and family.
+      </p>
+      <ul aria-label="Skills and interests" class="tag-list">
+       <!-- PLACEHOLDER: replace tag labels as needed -->
+       <li>
+        additive mfg
+       </li>
+       <li>
+        semiconductor
+       </li>
+       <li>
+        vehicle dynamics
+       </li>
+       <li>
+        automation
+       </li>
+       <li>
+        controls
+       </li>
+       <li>
+        CAD
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+   <hr class="section-divider"/>
+   <section aria-labelledby="resume-title" class="section" id="resume">
+    <div class="section-heading-row">
+     <h2 id="resume-title">
+      Resume
+     </h2>
+     <a class="resume-button" href="https://jcarmichael.github.io/assets/resume/Jeffrey-Carmichael-Resume.pdf" rel="noopener noreferrer" target="_blank">
+      Download Resume
+     </a>
+    </div>
+    <div aria-labelledby="professional-experience-title" class="subsection">
+     <h3 id="professional-experience-title">
+      Professional Experience
+     </h3>
+     <div class="card-grid">
+      <article class="card experience-card">
+       <div class="experience-layout">
+        <div class="experience-content">
+         <div class="card-header">
+          <div class="card-title-group">
+           <h4>
+            NY CREATES
+           </h4>
+           <p class="card-role">
+            Project Aide, Patterning Process Engineering
+           </p>
           </div>
-
-          <!-- PLACEHOLDER: replace this draft bio with final about copy -->
-          <p>
-            Jeffrey Carmichael, M.S. is a NY-based Mechanical Engineer with experiences in traditional and additive manufacturing and semiconductor research.
+          <p class="card-date">
+           May 2026 – July 2026
           </p>
-          <p>
-            Jeffrey focuses on designs that aim to satisfy the customer to meet their needs at a high quality and delivered with efficiency.
+         </div>
+         <ul class="bullet-list">
+          <li>
+           enter text here
+          </li>
+          <li>
+           enter text here
+          </li>
+          <li>
+           enter text here
+          </li>
+         </ul>
+         <ul aria-label="Tools used in this role" class="skill-tool-list">
+          <li>
+           Python
+          </li>
+          <li>
+           Jupyter
+          </li>
+          <li>
+           Excel
+          </li>
+         </ul>
+        </div>
+       </div>
+      </article>
+      <article class="card experience-card">
+       <div class="experience-layout">
+        <div class="experience-content">
+         <div class="card-header">
+          <div class="card-title-group">
+           <h4>
+            Waygate Technologies | Baker Hughes
+           </h4>
+           <p class="card-role">
+            Tooling &amp; Automation Engineer Co-op
+           </p>
+          </div>
+          <p class="card-date">
+           July 2025 – December 2025
           </p>
-          <p>
-            In his free time, Jeffrey enjoys photography, exploring the outdoors, eating good food, and spending time with friends and family.
+         </div>
+         <ul class="bullet-list">
+          <li>
+           Designed 40+ fixtures and improved legacy tooling to support high-precision, low-volume manufacturing; produced over 1,300 assemblies, parts, and mechanical drawings using SolidWorks.
+          </li>
+          <li>
+           Upgraded an automated fiber-optic end-polishing system, refining mechanical design and programming a UR5e cobot to run multi-stage routines with integrated sensor feedback.
+          </li>
+          <li>
+           Integrated UR5e control with a custom GUI, improving operator usability and enabling faster engineering revisions during system optimization.
+          </li>
+         </ul>
+         <ul aria-label="Tools used in this role" class="skill-tool-list">
+          <li>
+           SolidWorks
+          </li>
+          <li>
+           URScript
+          </li>
+          <li>
+           Python
+          </li>
+         </ul>
+        </div>
+       </div>
+      </article>
+      <article class="card experience-card">
+       <div class="experience-layout">
+        <div class="experience-content">
+         <div class="card-header">
+          <div class="card-title-group">
+           <h4>
+            Cummins Inc.
+           </h4>
+           <p class="card-role">
+            Product Development Engineer Co-op
+           </p>
+          </div>
+          <p class="card-date">
+           May 2024 – September 2024
           </p>
-
-          <ul class="tag-list" aria-label="Skills and interests">
-            <!-- PLACEHOLDER: replace tag labels as needed -->
-            <li>additive mfg</li>
-            <li>semiconductor</li>
-            <li>vehicle dynamics</li>
-            <li>automation</li>
-            <li>controls</li>
-            <li>CAD</li>
-          </ul>
+         </div>
+         <ul class="bullet-list">
+          <li>
+           Developed and validated manufacturing processes for prototype rocker brake components through hands-on testing, metrology, and production support.
+          </li>
+          <li>
+           Supported VAVE implementation for production cost reduction, contributing to projected annual savings of $2M.
+          </li>
+          <li>
+           Designed, fabricated, and installed instrumentation brackets using traditional machining and metal additive manufacturing techniques.
+          </li>
+         </ul>
+         <ul aria-label="Tools used in this role" class="skill-tool-list">
+          <li>
+           Creo
+          </li>
+          <li>
+           Excel
+          </li>
+          <li>
+           3D Printing
+          </li>
+         </ul>
         </div>
-      </div>
-    </section>
-
-    <hr class="section-divider" />
-
-    <section class="section" id="resume" aria-labelledby="resume-title">
-      <div class="section-heading-row">
-        <h2 id="resume-title">Resume</h2>
-        <a class="resume-button" href="https://jcarmichael.github.io/assets/resume/Jeffrey-Carmichael-Resume.pdf" target="_blank" rel="noopener noreferrer">
-          Download Resume
-        </a>
-      </div>
-
-      <div class="subsection" aria-labelledby="professional-experience-title">
-        <h3 id="professional-experience-title">Professional Experience</h3>
-
-        <div class="card-grid">
-          <article class="card experience-card">
-            <div class="experience-layout">
-              <div class="experience-logo" aria-hidden="true">
-                <span>NY</span>
-                <!-- Replace the initials with <img src="https://jcarmichael.github.io/assets/images/logos/logo-file.png" alt="" /> when ready. -->
-              </div>
-
-              <div class="experience-content">
-                <div class="card-header">
-                  <div class="card-title-group">
-                    <h4>NY CREATES</h4>
-                    <p class="card-role">Project Aide, Patterning Process Engineering</p>
-                  </div>
-                  <p class="card-date">May 2026 – July 2026</p>
-                </div>
-
-                <ul class="bullet-list">
-                  <li>enter text here</li>
-                  <li>enter text here</li>
-                  <li>enter text here</li>
-                </ul>
-                    <div class="skill-icon-row" aria-label="Software skill placeholders">
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <!-- Replace each placeholder with <img src="https://jcarmichael.github.io/assets/images/software/software-name.png" alt="Software name" /> when ready. -->
-                    </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card experience-card">
-            <div class="experience-layout">
-              <div class="experience-logo" aria-hidden="true">
-                <span>WT</span>
-                <!-- Replace the initials with <img src="https://jcarmichael.github.io/assets/images/logos/logo-file.png" alt="" /> when ready. -->
-              </div>
-
-              <div class="experience-content">
-                <div class="card-header">
-                  <div class="card-title-group">
-                    <h4>Waygate Technologies | Baker Hughes</h4>
-                    <p class="card-role">Tooling & Automation Engineer Co-op</p>
-                  </div>
-                  <p class="card-date">July 2025 – December 2025</p>
-                </div>
-
-                <ul class="bullet-list">
-                  <li>Designed 40+ fixtures and improved legacy tooling to support high-precision, low-volume manufacturing; produced over 1,300 assemblies, parts, and mechanical drawings using SolidWorks.</li>
-                  <li>Upgraded an automated fiber-optic end-polishing system, refining mechanical design and programming a UR5e cobot to run multi-stage routines with integrated sensor feedback.</li>
-                  <li>Integrated UR5e control with a custom GUI, improving operator usability and enabling faster engineering revisions during system optimization.</li>
-                </ul>
-                    <div class="skill-icon-row" aria-label="Software skill placeholders">
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <!-- Replace each placeholder with <img src="https://jcarmichael.github.io/assets/images/software/software-name.png" alt="Software name" /> when ready. -->
-                    </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card experience-card">
-            <div class="experience-layout">
-              <div class="experience-logo" aria-hidden="true">
-                <span>CI</span>
-                <!-- Replace the initials with <img src="https://jcarmichael.github.io/assets/images/logos/logo-file.png" alt="" /> when ready. -->
-              </div>
-
-              <div class="experience-content">
-                <div class="card-header">
-                  <div class="card-title-group">
-                    <h4>Cummins Inc.</h4>
-                    <p class="card-role">Product Development Engineer Co-op</p>
-                  </div>
-                  <p class="card-date">May 2024 – September 2024</p>
-                </div>
-
-                <ul class="bullet-list">
-                  <li>Developed and validated manufacturing processes for prototype rocker brake components through hands-on testing, metrology, and production support.</li>
-                  <li>Supported VAVE implementation for production cost reduction, contributing to projected annual savings of $2M.</li>
-                  <li>Designed, fabricated, and installed instrumentation brackets using traditional machining and metal additive manufacturing techniques.</li>
-                </ul>
-                    <div class="skill-icon-row" aria-label="Software skill placeholders">
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <!-- Replace each placeholder with <img src="https://jcarmichael.github.io/assets/images/software/software-name.png" alt="Software name" /> when ready. -->
-                    </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card experience-card">
-            <div class="experience-layout">
-              <div class="experience-logo" aria-hidden="true">
-                <span>BW</span>
-                <!-- Replace the initials with <img src="https://jcarmichael.github.io/assets/images/logos/logo-file.png" alt="" /> when ready. -->
-              </div>
-
-              <div class="experience-content">
-                <div class="card-header">
-                  <div class="card-title-group">
-                    <h4>BorgWarner Inc.</h4>
-                    <p class="card-role">Manufacturing Engineer Intern</p>
-                  </div>
-                  <p class="card-date">May 2023 – August 2023</p>
-                </div>
-
-                <ul class="bullet-list">
-                  <li>Verified automotive chain link and pin specifications using optical metrology and profilometry.</li>
-                  <li>Streamlined quality inspection workflows using AutoCAD.</li>
-                </ul>
-                    <div class="skill-icon-row" aria-label="Software skill placeholders">
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <!-- Replace each placeholder with <img src="https://jcarmichael.github.io/assets/images/software/software-name.png" alt="Software name" /> when ready. -->
-                    </div>
-              </div>
-            </div>
-          </article>
+       </div>
+      </article>
+      <article class="card experience-card">
+       <div class="experience-layout">
+        <div class="experience-content">
+         <div class="card-header">
+          <div class="card-title-group">
+           <h4>
+            BorgWarner Inc.
+           </h4>
+           <p class="card-role">
+            Manufacturing Engineer Intern
+           </p>
+          </div>
+          <p class="card-date">
+           May 2023 – August 2023
+          </p>
+         </div>
+         <ul class="bullet-list">
+          <li>
+           Verified automotive chain link and pin specifications using optical metrology and profilometry.
+          </li>
+          <li>
+           Streamlined quality inspection workflows using AutoCAD.
+          </li>
+         </ul>
+         <ul aria-label="Tools used in this role" class="skill-tool-list">
+          <li>
+           AutoCAD
+          </li>
+          <li>
+           Keyence
+          </li>
+          <li>
+           Profilometry
+          </li>
+         </ul>
         </div>
-      </div>
-
-      <div class="subsection" aria-labelledby="leadership-experience-title">
-        <h3 id="leadership-experience-title">Leadership / Pre-Professional Experience</h3>
-
-        <div class="card-grid">
-          <article class="card experience-card">
-            <div class="experience-layout">
-              <div class="experience-logo" aria-hidden="true">
-                <span>SAE</span>
-                <!-- Replace the initials with <img src="https://jcarmichael.github.io/assets/images/logos/logo-file.png" alt="" /> when ready. -->
-              </div>
-
-              <div class="experience-content">
-                <div class="card-header">
-                  <div class="card-title-group">
-                    <h4>RIT Baja SAE</h4>
-                    <p class="card-role">Vehicle Dynamics and Brakes Subsystem Designer</p>
-                  </div>
-                  <p class="card-date">September 2023 – May 2026</p>
-                </div>
-
-                <ul class="bullet-list">
-                  <li>Designed new brake rotors and supported caliper development for RIT Baja’s 2024 and 2026 off-road vehicles.</li>
-                  <li>Analyzed component deformation using SolidWorks Simulation and ANSYS to evaluate loading behavior under maximum braking conditions.</li>
-                  <li>Developed MATLAB-based suspension visualization tools to study motion behavior from vehicle points using coordinate transformations.</li>
-                </ul>
-                    <div class="skill-icon-row" aria-label="Software skill placeholders">
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                      <!-- Replace each placeholder with <img src="https://jcarmichael.github.io/assets/images/software/software-name.png" alt="Software name" /> when ready. -->
-                    </div>
-              </div>
-            </div>
-          </article>
-
-          <article class="card experience-card">
-            <div class="experience-layout">
-              <div class="experience-logo" aria-hidden="true">
-                <span>RIT</span>
-                <!-- Replace the initials with <img src="https://jcarmichael.github.io/assets/images/logos/logo-file.png" alt="" /> when ready. -->
-              </div>
-
-              <div class="experience-content">
-                <div class="card-header">
-                  <div class="card-title-group">
-                    <h4>Rochester Institute of Technology</h4>
-                    <p class="card-role">Campus leadership, teaching, and technical support roles</p>
-                  </div>
-                  <p class="card-date">August 2023 – Present</p>
-                </div>
-
-                <div class="role-detail-list" aria-label="RIT role details">
-                  <section class="role-detail" aria-labelledby="rit-steam-coach-title">
-                    <div class="role-detail-header">
-                      <h5 id="rit-steam-coach-title">K-12 University Center STEAM Coach</h5>
-                      <p>January 2025 – May 2026</p>
-                    </div>
-                    <ul class="bullet-list compact-bullet-list">
-                      <li>Led STEM outreach programming through RIT’s K-12 University Center, developing hands-on learning experiences for local students in engineering and technology.</li>
-                      <li>Supported student engagement through mentoring, technical instruction, and outreach initiatives including geocaching programming and hydrogen-powered RC vehicle education.</li>
-                      <li>Tutored students from local school districts in a broad range of literary, science and mathematics courses.</li>
-                    </ul>
-                  </section>
-
-                  <section class="role-detail" aria-labelledby="rit-dynamics-ta-title">
-                    <div class="role-detail-header">
-                      <h5 id="rit-dynamics-ta-title">MECE-205 Teaching Assistant</h5>
-                      <p>January 2024 – May 2026</p>
-                    </div>
-                    <ul class="bullet-list compact-bullet-list">
-                      <li>Supported 100+ students through in-class instruction, review sessions, and academic assistance.</li>
-                    </ul>
-                  </section>
-
-                  <section class="role-detail" aria-labelledby="rit-its-technician-title">
-                    <div class="role-detail-header">
-                      <h5 id="rit-its-technician-title">ITS ResNet and Desktop Support Technician</h5>
-                      <p>August 2023 – May 2024</p>
-                    </div>
-                    <ul class="bullet-list compact-bullet-list">
-                      <li>Provided technological support to faculty and students by resolving software and hardware issues.</li>
-                    </ul>
-                  </section>
-                </div>
-
-                <div class="skill-icon-row" aria-label="Software skill placeholders">
-                  <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                  <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                  <span class="skill-icon-placeholder" aria-hidden="true"></span>
-                  <!-- Replace each placeholder with <img src="https://jcarmichael.github.io/assets/images/software/software-name.png" alt="Software name" /> when ready. -->
-                </div>
-              </div>
-            </div>
-          </article>
+       </div>
+      </article>
+     </div>
+    </div>
+    <div aria-labelledby="leadership-experience-title" class="subsection">
+     <h3 id="leadership-experience-title">
+      Leadership / Pre-Professional Experience
+     </h3>
+     <div class="card-grid">
+      <article class="card experience-card">
+       <div class="experience-layout">
+        <div class="experience-content">
+         <div class="card-header">
+          <div class="card-title-group">
+           <h4>
+            RIT Baja SAE
+           </h4>
+           <p class="card-role">
+            Vehicle Dynamics and Brakes Subsystem Designer
+           </p>
+          </div>
+          <p class="card-date">
+           September 2023 – May 2026
+          </p>
+         </div>
+         <ul class="bullet-list">
+          <li>
+           Designed new brake rotors and supported caliper development for RIT Baja’s 2024 and 2026 off-road vehicles.
+          </li>
+          <li>
+           Analyzed component deformation using SolidWorks Simulation and ANSYS to evaluate loading behavior under maximum braking conditions.
+          </li>
+          <li>
+           Developed MATLAB-based suspension visualization tools to study motion behavior from vehicle points using coordinate transformations.
+          </li>
+         </ul>
+         <ul aria-label="Tools used in this role" class="skill-tool-list">
+          <li>
+           SolidWorks
+          </li>
+          <li>
+           ANSYS
+          </li>
+          <li>
+           MATLAB
+          </li>
+         </ul>
         </div>
-      </div>
-    </section>
-
-    <hr class="section-divider" />
-
-    <section class="section" id="projects" aria-labelledby="projects-title">
-      <div class="section-heading-row">
-        <h2 id="projects-title">Projects</h2>
-      </div>
-
-      <div class="project-grid">
-        <article class="project-card">
-          <div class="project-image-placeholder" role="img" aria-label="Image placeholder for Brake Rotor Design">
-            <span>project image</span>
-            <!-- Replace with: <img src="https://jcarmichael.github.io/assets/images/projects/brake-rotor-design.jpg" alt="Brake rotor design project visual" /> -->
+       </div>
+      </article>
+      <article class="card experience-card">
+       <div class="experience-layout">
+        <div class="experience-content">
+         <div class="card-header">
+          <div class="card-title-group">
+           <h4>
+            Rochester Institute of Technology
+           </h4>
+           <p class="card-role">
+            Campus leadership, teaching, and technical support roles
+           </p>
           </div>
-          <div class="project-copy">
-            <h3>Brake Rotor Design</h3>
-            <p class="project-description">Add a short sentence describing the design challenge, your approach, and the final outcome.</p>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-image-placeholder" role="img" aria-label="Image placeholder for Brake Rotor Hub Design">
-            <span>project image</span>
-            <!-- Replace with: <img src="https://jcarmichael.github.io/assets/images/projects/brake-rotor-hub-design.jpg" alt="Brake rotor hub design project visual" /> -->
-          </div>
-          <div class="project-copy">
-            <h3>Rotor Hub Design</h3>
-            <p class="project-description">Add a short sentence describing the design challenge, your approach, and the final outcome.</p>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-image-placeholder" role="img" aria-label="Image placeholder for Vehicle Dynamics Visualization">
-            <span>project image</span>
-            <!-- Replace with: <img src="https://jcarmichael.github.io/assets/images/projects/vehicle-dynamics-visualization.jpg" alt="Vehicle dynamics visualization project visual" /> -->
-          </div>
-          <div class="project-copy">
-            <h3>Vehicle Dynamics Visualization</h3>
-            <p class="project-description">Add a short sentence describing the design challenge, your approach, and the final outcome.</p>
-          </div>
-        </article>
-
-        <article class="project-card">
-          <div class="project-image-placeholder" role="img" aria-label="Image placeholder for xxx">
-            <span>project image</span>
-            <!-- Replace with: <img src="https://jcarmichael.github.io/assets/images/projects/xxx.jpg" alt="xxx project visual" /> -->
-          </div>
-          <div class="project-copy">
-            <h3>xxx</h3>
-            <p class="project-description">Add a short sentence describing the design challenge, your approach, and the final outcome.</p>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <hr class="section-divider" />
-
-    <section class="section contact-section" id="contact" aria-labelledby="contact-title">
-      <div class="contact-grid">
-        <div>
-          <h2 id="contact-title">Contact</h2>
+          <p class="card-date">
+           August 2023 – Present
+          </p>
+         </div>
+         <div aria-label="RIT role details" class="role-detail-list">
+          <section aria-labelledby="rit-steam-coach-title" class="role-detail">
+           <div class="role-detail-header">
+            <h5 id="rit-steam-coach-title">
+             K-12 University Center STEAM Coach
+            </h5>
+            <p>
+             January 2025 – May 2026
+            </p>
+           </div>
+           <ul class="bullet-list compact-bullet-list">
+            <li>
+             Led STEM outreach programming through RIT’s K-12 University Center, developing hands-on learning experiences for local students in engineering and technology.
+            </li>
+            <li>
+             Supported student engagement through mentoring, technical instruction, and outreach initiatives including geocaching programming and hydrogen-powered RC vehicle education.
+            </li>
+            <li>
+             Tutored students from local school districts in a broad range of literary, science and mathematics courses.
+            </li>
+           </ul>
+          </section>
+          <section aria-labelledby="rit-dynamics-ta-title" class="role-detail">
+           <div class="role-detail-header">
+            <h5 id="rit-dynamics-ta-title">
+             MECE-205 Teaching Assistant
+            </h5>
+            <p>
+             January 2024 – May 2026
+            </p>
+           </div>
+           <ul class="bullet-list compact-bullet-list">
+            <li>
+             Supported 100+ students through in-class instruction, review sessions, and academic assistance.
+            </li>
+           </ul>
+          </section>
+          <section aria-labelledby="rit-its-technician-title" class="role-detail">
+           <div class="role-detail-header">
+            <h5 id="rit-its-technician-title">
+             ITS ResNet and Desktop Support Technician
+            </h5>
+            <p>
+             August 2023 – May 2024
+            </p>
+           </div>
+           <ul class="bullet-list compact-bullet-list">
+            <li>
+             Provided technological support to faculty and students by resolving software and hardware issues.
+            </li>
+           </ul>
+          </section>
+         </div>
+         <ul aria-label="Tools used in this role" class="skill-tool-list">
+          <li>
+           MATLAB
+          </li>
+          <li>
+           Microsoft Office
+          </li>
+          <li>
+           Windows Support
+          </li>
+         </ul>
         </div>
-
-        <address class="contact-list">
-          <a href="mailto:jpc6827@rit.edu">
-            <span>Email</span>
-            <strong>jpc6827@rit.edu</strong>
-          </a>
-          <a href="tel:+13154069938">
-            <span>Phone</span>
-            <strong>+1 (315) 406-9938</strong>
-          </a>
-          <a href="https://www.linkedin.com/in/jeffrey-carmichael-jr/" target="_blank" rel="noopener noreferrer">
-            <span>LinkedIn</span>
-            <strong>linkedin.com/jeffrey-carmichael-jr/</strong>
-          </a>
-        </address>
+       </div>
+      </article>
+     </div>
+    </div>
+   </section>
+   <hr class="section-divider"/>
+   <section aria-labelledby="projects-title" class="section" id="projects">
+    <div class="section-heading-row">
+     <h2 id="projects-title">
+      Projects
+     </h2>
+    </div>
+    <div class="project-grid">
+     <article class="project-card">
+      <div aria-label="Image placeholder for Brake Rotor Design" class="project-image-placeholder" role="img">
+       <span>
+        project image
+       </span>
+       <!-- Replace with: <img src="https://jcarmichael.github.io/assets/images/projects/brake-rotor-design.jpg" alt="Brake rotor design project visual" /> -->
       </div>
-    </section>
+      <div class="project-copy">
+       <h3>
+        Brake Rotor Design
+       </h3>
+       <p class="project-description">
+        Add a short sentence describing the design challenge, your approach, and the final outcome.
+       </p>
+      </div>
+     </article>
+     <article class="project-card">
+      <div aria-label="Image placeholder for Brake Rotor Hub Design" class="project-image-placeholder" role="img">
+       <span>
+        project image
+       </span>
+       <!-- Replace with: <img src="https://jcarmichael.github.io/assets/images/projects/brake-rotor-hub-design.jpg" alt="Brake rotor hub design project visual" /> -->
+      </div>
+      <div class="project-copy">
+       <h3>
+        Rotor Hub Design
+       </h3>
+       <p class="project-description">
+        Add a short sentence describing the design challenge, your approach, and the final outcome.
+       </p>
+      </div>
+     </article>
+     <article class="project-card">
+      <div aria-label="Image placeholder for Vehicle Dynamics Visualization" class="project-image-placeholder" role="img">
+       <span>
+        project image
+       </span>
+       <!-- Replace with: <img src="https://jcarmichael.github.io/assets/images/projects/vehicle-dynamics-visualization.jpg" alt="Vehicle dynamics visualization project visual" /> -->
+      </div>
+      <div class="project-copy">
+       <h3>
+        Vehicle Dynamics Visualization
+       </h3>
+       <p class="project-description">
+        Add a short sentence describing the design challenge, your approach, and the final outcome.
+       </p>
+      </div>
+     </article>
+     <article class="project-card">
+      <div aria-label="Image placeholder for xxx" class="project-image-placeholder" role="img">
+       <span>
+        project image
+       </span>
+       <!-- Replace with: <img src="https://jcarmichael.github.io/assets/images/projects/xxx.jpg" alt="xxx project visual" /> -->
+      </div>
+      <div class="project-copy">
+       <h3>
+        xxx
+       </h3>
+       <p class="project-description">
+        Add a short sentence describing the design challenge, your approach, and the final outcome.
+       </p>
+      </div>
+     </article>
+    </div>
+   </section>
+   <hr class="section-divider"/>
+   <section aria-labelledby="contact-title" class="section contact-section" id="contact">
+    <div class="contact-grid">
+     <div>
+      <h2 id="contact-title">
+       Contact
+      </h2>
+     </div>
+     <address class="contact-list">
+      <a href="mailto:jpc6827@rit.edu">
+       <span>
+        Email
+       </span>
+       <strong>
+        jpc6827@rit.edu
+       </strong>
+      </a>
+      <a href="tel:+13154069938">
+       <span>
+        Phone
+       </span>
+       <strong>
+        +1 (315) 406-9938
+       </strong>
+      </a>
+      <a href="https://www.linkedin.com/in/jeffrey-carmichael-jr/" rel="noopener noreferrer" target="_blank">
+       <span>
+        LinkedIn
+       </span>
+       <strong>
+        linkedin.com/jeffrey-carmichael-jr/
+       </strong>
+      </a>
+     </address>
+    </div>
+   </section>
   </main>
-
   <footer class="site-footer">
-    <p>&copy; <span id="current-year"></span> Jeffrey Carmichael. Built for GitHub Pages.</p>
+   <p>
+    ©
+    <span id="current-year">
+    </span>
+    Jeffrey Carmichael. Built for GitHub Pages.
+   </p>
   </footer>
-
-  <script src="script.js"></script>
-</body>
+  <script src="script.js">
+  </script>
+ </body>
 </html>

@@ -35,7 +35,7 @@ http://localhost:8000
 
 ## Replacing placeholders
 
-Search for `PLACEHOLDER` inside `index.html`. The placeholder bullet bars intentionally use visual lines instead of visible text, but each has a nearby HTML comment showing where to add the real bullet copy.
+Search for `enter text here`, `Add a short sentence`, and the tool-chip lists inside `index.html` to replace placeholder resume bullets, project descriptions, and role-specific tools.
 
 The current dummy asset paths are:
 
